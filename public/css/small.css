@@ -1,0 +1,33 @@
+#show-hidden-menu{
+	background-color: #337ab7;
+	padding: 10px 20px;
+	margin-top:10px;
+	color:#fff;
+	font-weight: bolder;
+}
+.menu_body{
+	background-color: #dff;
+	max-height:200px;
+	overflow-y:scroll;
+	padding:10px;
+}
+#search_body{
+	padding:10px;
+}
+
+.adtype{
+	position: absolute;
+    margin-left: 0;
+    line-height: 800px;
+}
+.label_adtype .adtype{
+	display: inline-block;
+	position: absolute;
+	opacity: 0;
+  	cursor: pointer;
+  	height: 0;
+  	width: 0;
+}
+input:checked ~ .adtype {
+  background-color: #2196F3;
+}
